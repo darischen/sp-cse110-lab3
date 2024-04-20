@@ -15,6 +15,10 @@ header {
     padding: 1vw 1vw 1vw 1vw;
 }
 
+h1{
+    color: color(display-p3 0.6 0.2 0.8)
+}
+
 h2 {
     color: hsl(210, 50%, 60%); /* Heading color using HSL */
 }
@@ -26,6 +30,7 @@ nav ul {
     padding-left: 0;
     padding-bottom: 0;
     padding-top: 0;
+    background-color: color-mix(blend, #007bff, #fff 30%);
 }
 
 nav ul li {
