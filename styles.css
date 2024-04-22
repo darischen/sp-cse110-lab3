@@ -50,6 +50,23 @@ nav ul li, .navigation-list-item {
     margin-right: 10px;
 }
 
+section ul > li:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 + ol > li:hover{
+    font-weight: bold;
+}
+
+summary ~ p{
+    color: grey;
+}
+
+b.class{
+    text-align: center;
+}
+
 main {
     position: relative;
     display: inline-block;
@@ -147,6 +164,7 @@ button:active {
 
 summary:hover {
     color: blue; /* Change link color on hover*/
+    cursor: pointer;
 }
 
 input[type="number"] {
