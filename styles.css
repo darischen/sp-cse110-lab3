@@ -97,7 +97,7 @@ details:has(p){
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 20px;
     row-gap: 20px;
-    grid-auto-rows: 3;
+    grid-auto-rows: 3 px;
 }
 
 .presentation-item {
