@@ -1,7 +1,7 @@
 /* General Styles */
 
 :root {
-    --main-font-family: Tangerine, sans-serif; /* Default font family */
+    --main-font-family: Arial, sans-serif; /* Default font family */
     --main-text-color: #222; /* Default text color */
     --main-bg-color: #f8f9fa; /* Default background color */
 }
@@ -97,7 +97,7 @@ details:has(p){
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 20px;
     row-gap: 20px;
-    grid-auto-rows: 3px;
+    grid-auto-rows: 3;
 }
 
 .presentation-item {
