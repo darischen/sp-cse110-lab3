@@ -35,7 +35,7 @@ h2 {
     color: hsl(210, 50%, 60%); /* Heading color using HSL */
 }
 
-nav ul {
+nav ul, .navigation-list {
     list-style-type: none;
     padding: 0;
     padding-right: 0;
@@ -45,7 +45,7 @@ nav ul {
     background-color: color-mix(blend, #007bff, #fff 30%);
 }
 
-nav ul li {
+nav ul li, .navigation-list-item {
     display: inline;
     margin-right: 10px;
 }
@@ -151,4 +151,19 @@ summary:hover {
 
 input[type="number"] {
     appearance: textfield; /* Override default number input styling */
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    main {
+        padding: 10px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin-right: 8px;
+    }
 }
